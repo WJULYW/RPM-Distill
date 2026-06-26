@@ -3,7 +3,7 @@
 This is the official implementation of our paper **"RPM-Distill: Physiology-guided Adaptive Cross-modal Distillation for Robust Remote Physiological Measurement"**.
 
 <div style="text-align:center;">
-  <img src="model.pdf" style="width:100%;" />
+  <img src="model.png" style="width:100%;" />
 </div>
 
 > Video-based remote physiological measurement (RPM) is highly accessible but remains fragile under varying illumination, skin tones, and motion. Radio-frequency (RF) radar is largely invariant to illumination and appearance, providing complementary cardio-respiratory micro-motion cues; however, requiring radar at inference is often impractical due to its limited ubiquity and deployment overhead. We propose **RPM-Distill**, a physiology-guided cross-modal distillation framework that leverages synchronized radar **only during training** while retaining **video-only inference**. Although RGB and RF waveforms differ in sensing physics and time-domain morphology, they share a similar latent periodic rhythm in the frequency domain. We thus distill physiology-structured spectral evidence through three complementary losses that (i) anchor the fundamental peak, (ii) match the off-peak background distribution, and (iii) preserve spectral morphology and sharpness. To avoid negative transfer under sample-level teacher quality and alignment uncertainty, a **spectral policy network** predicts per-sample distillation gates and component weights from the student–teacher spectral relation map, learned with a **bilevel meta objective** on a small labeled validation split.
