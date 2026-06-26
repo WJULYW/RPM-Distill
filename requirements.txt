@@ -1,0 +1,8 @@
+torch>=1.12
+numpy
+pandas
+scipy
+opencv-python
+imageio
+tqdm
+pynvml
