@@ -1,6 +1,6 @@
 # RPM-Distill: Physiology-guided Adaptive Cross-modal Distillation for Robust Remote Physiological Measurement
 
-This is the official implementation of our paper **"RPM-Distill: Physiology-guided Adaptive Cross-modal Distillation for Robust Remote Physiological Measurement"**.
+This is the official implementation of ECCV2026 paper **"RPM-Distill: Physiology-guided Adaptive Cross-modal Distillation for Robust Remote Physiological Measurement"**.
 
 <div style="text-align:center;">
   <img src="model.png" style="width:100%;" />
