@@ -72,7 +72,7 @@ The code is implemented in PyTorch and was tested on a single NVIDIA GPU (the pa
 
 ## Data Preparation
 
-Following the paper, the framework is trained on synchronized **RGB video + RF radar** datasets (e.g., **EquiPleth**, **PhysDrive**) and can be cross-evaluated on RGB-only datasets (**PURE**, **MMPD**). Please obtain each dataset from its official source and accept the corresponding agreements.
+Following the paper, the framework is trained on synchronized **RGB video + RF radar** datasets (e.g., [**EquiPleth**](https://github.com/UCLA-VMG/EquiPleth), [**PhysDrive**](https://github.com/WJULYW/PhysDrive-Dataset)) and can be cross-evaluated on RGB-only datasets ([**PURE**](https://www.tu-ilmenau.de/en/university/departments/department-of-computer-science-and-automation/profile/institutes-and-groups/institute-of-computer-and-systems-engineering/group-for-neuroinformatics-and-cognitive-robotics/data-sets-code/pulse-rate-detection-dataset-pure), [**MMPD**](https://github.com/McJackTang/MMPD_rPPG_dataset)). Please obtain each dataset from its official source and accept the corresponding agreements.
 
 This release ships a paired-window data interface (`PairedVideoRFWindowDataset`) that expects each recording to be organized as:
 
